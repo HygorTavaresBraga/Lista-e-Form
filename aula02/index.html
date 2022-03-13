@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02 - Lista e Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container-lista">
+    <div class="lista-ordenada">
+        <h4>Lista Ordenada</h4>
+            <ol>
+                <li>João</li>
+                <li>Maria</li>
+                <li>Julio</li>
+                <li>Bento</li>
+                <li>Carla</li>
+                <li>Ana</li>
+            </ol>
+    </div>
+
+    <div class="lista-ordenada-num_romanos">
+        <h4>Lista Ordenada</h4>
+            <ol type="i">
+                <li>João</li>
+                <li>Maria</li>
+                <li>Julio</li>
+                <li>Bento</li>
+                <li>Carla</li>
+                <li>Ana</li>
+            </ol>
+    </div>
+
+
+    <div class="lista-desordenada">
+        <h4>Lista Desordenada</h4>
+            <ul>
+                <li>João</li>
+                <li>Maria</li>
+                <li>Julio</li>
+                <li>Bento</li>
+                <li>Carla</li>
+                <li>Ana</li>
+            </ul>
+    </div>
+</div>
+
+<div class="container-formulario">
+    <h4>Formulário</h4>
+        <form class="formulario">
+            <h5>Nome</h3>
+                <input type="text" placeholder="Digite seu nome">
+
+            <h5>Sobrenome</h3>
+                <input type="text" placeholder="Digite seu sobrenome">
+            
+            <h5>Data de Nascimento</h5>
+                <input type="date">
+
+            <h5>País</h5>
+                <select name="paises" id="">
+                    <option>Selecione</option>
+                    <option>Brasil</option>
+                    <option>Argentina</option>
+                    <option>Estados Unidos</option>
+                    <option>Irlanda</option>
+                    <option>Finlândia</option>
+                    <option>Portugal</option>
+                    <option>Croácia</option>
+                    <option>Espanha</option>
+                    <option>Outro</option>
+                </select>
+
+            <h5>Email</h5>
+                <input type="email" placeholder="Digite seu email">
+
+            <h5>Senha</h5>
+                <input type="password" placeholder="Digite sua senha">
+
+            <h5>Confirmar Senha</h5>
+                <input type="password" placeholder="Redigite sua senha">
+            
+            <input type="submit" value="Enviar Formulário" id="btn-enviar">
+        </form>
+</div>
+</body>
+</html>

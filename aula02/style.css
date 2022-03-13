@@ -1,0 +1,72 @@
+/*RESET CSS*/
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+/*CORPO DA PÁGINA*/
+body{
+    background-color: rgb(54, 107, 107);
+}
+
+/*CONTAINER DA LISTA*/
+
+.container-lista{
+    display: flex;
+    width: 35%;
+    height: auto;
+    background-color: cornsilk;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.lista-ordenada ol{
+    font-size: 20px;
+    color: rgb(40, 59, 0);
+    padding-left: 10px;
+}
+
+.lista-ordenada-num_romanos ol{
+    font-size: 20px;
+    color: rgb(40, 59, 0);
+    padding-left: 10px;
+}
+
+.lista-desordenada ul{
+    font-size: 20px;
+    color: rgb(40, 59, 0);
+    list-style: none;
+    padding-left: 10px;
+}
+
+.lista-ordenada, .lista-ordenada-num_romanos, .lista-desordenada{
+    margin: 0 auto 0 auto;
+}
+
+/*CONTAINER DO FORMULÁRIO*/
+
+.container-formulario{
+    width: 35%;
+    height: auto;
+    background-color: cornsilk;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.formulario input, .formulario button{
+    display: block;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+#btn-enviar{
+    border: 1.5px solid black;
+    cursor: pointer;
+    transition: 1s ease-out;
+    margin: 24px auto 0 auto;
+}
+
+#btn-enviar:hover{
+    background-color: rgb(115, 196, 115);
+    color: rgb(0, 0, 0);
+    transition: 1s ease-out;
+}
